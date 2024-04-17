@@ -1,4 +1,6 @@
-
+#Idris Sampson
+#4/16/24
+#this quetions the user and chooses there path depending on choice
 def quiz_puzzle():
     print("You, Todd and Stephanie come across a long room, you can see a lever on the other end of the room and you look at the ground")
     print("Todd points out that those are definatly boobie traps and yall should proceed with cation then a ghostly figure of a snake decends from the heavens")
