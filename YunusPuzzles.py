@@ -18,24 +18,24 @@ def puzzle1():  # First puzzle
         moving_text("correct")
     else:
         print("wrong")
-puzzle1() # Calls puzzle1
+ # Calls puzzle1
 
 # Puzzle2
 # True or false question
-var = input("A voice from below asks you [question] is this true? [1] Yes [2] No: ").lower() # Asks question and gets input
-while var != "1":
-    if var == "2":
-        break
-    moving_text("Please input 1 or 2: ") # Checks answer
-    if var == "1":
+    var = input("A voice from below asks you [question] is this true? [1] Yes [2] No: ").lower() # Asks question and gets input
+    while var != "1":
+        if var == "2":
+            break
+        moving_text("Please input 1 or 2: ") # Checks answer
+        if var == "1":
+            print("correct")
+        if var == "2":
+            print("wrong")
+
+    # Puzzle 3
+        #Simplest puzzle for MVP
+        var = input("[question]? [1] Yes [2] No: ").lower()  # Asking question
+    if var == "1": # Checking user input
         print("correct")
     if var == "2":
         print("wrong")
-
-# Puzzle 3
-    #Simplest puzzle for MVP
-    var = input("[question]? [1] Yes [2] No: ").lower()  # Asking question
-if var == "1": # Checking user input
-    print("correct")
-if var == "2":
-    print("wrong")
