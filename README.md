@@ -1,4 +1,4 @@
-#**---Tomb Taker---**
+# **---TOMB TAKER---**
 
 # By Dillon Idris, and Yunus 
 
