@@ -137,6 +137,15 @@ question_bank = [
 
 # appends PT if they got a python question right, PF for python question wrong, NT for NEtwork question right, NF for network question wrong
 grade_list = []
+
+def story():
+    if len(grade_list) == 0:
+        print("\nSuddenly the sand in front of you swirls and gathers into a small storm, you and your friends cover your eyes as\n"
+              "everyone is blasted with sand. When you open your eyes again there stands a shiny demon... in the middle... of the road...\n"
+              "AND HE SAYS!!! \n𝖆𝖓𝖘𝖜𝖊𝖗 𝖒𝖞 𝖖𝖚𝖊𝖘𝖙𝖎𝖔𝖓𝖘 𝖆𝖓𝖉 𝖞𝖔𝖚 𝖘𝖍𝖆𝖑𝖑 𝖕𝖆𝖘𝖘...")
+        input("(Press enter to continue)")
+        
+
 def getQuestion():
     x = random.choice(question_bank)
     question_bank.remove(x)
@@ -155,6 +164,7 @@ def getQuestion():
 
 
 for x in range(10):
+    story()
     print("\n\n", x+1)
     getQuestion()
 def final_grading():
