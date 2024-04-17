@@ -3,6 +3,7 @@ import random
 def secrets():
    poison = 0
    madlion = 0
+   #this code randomizes the chances of certain events happening within the game - idris
    while True:
       back = random.randint(1,200)
       specail_event= random.randrange(1, 1500)
@@ -23,7 +24,6 @@ def secrets():
    return poison, madlion
 
 poison, madlion = secrets()
-
+# this saves the possible buff disadventage posssible in the game in a file-idris
 with open("variables.txt", "w") as file:
-    file.write(f"Poison: {poison}\n")
-    file.write(f"Madlion: {madlion}\n")
+    file.write(f"{poison}{madlion}")
