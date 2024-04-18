@@ -3,8 +3,11 @@
 #this quetions the user and chooses there path depending on choice
 def quiz_puzzle():
     print("You, Todd and Stephanie come across a long room, you can see a lever on the other end of the room and you look at the ground")
+    print(" ")
     print("Todd points out that those are definatly boobie traps and yall should proceed with cation then a ghostly figure of a snake decends from the heavens")
+    print(" ")
     print("Then the snake says in a heavenly voice \"Anwser my questions correctly and you get to move on\" ")
+    print(" ")
     print("Stephanie looks prepared and ready then yells \" bring it on you stinky gucci bag\" ")
     #this code ask the user for an awnser and if incorrrect put them though a loop only giving them 3 chances- idris
     x = 3
@@ -20,6 +23,8 @@ def quiz_puzzle():
             print(f'you have {x} guesses left')
         if x == 0:
             print("you are all out of guesses then he hurls a  massive fire ball towards yall, you have died")
+            import DefeatandVictory
+            DefeatandVictory.deadscreen()
             quit()
 quiz_puzzle()
 

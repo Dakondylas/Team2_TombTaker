@@ -141,9 +141,20 @@ grade_list = []
 def story():
     if len(grade_list) == 0:
         print("\nSuddenly the sand in front of you swirls and gathers into a small storm, you and your friends cover your eyes as\n"
-              "everyone is blasted with sand. When you open your eyes again there stands a shiny demon... in the middle... of the road...\n"
-              "AND HE SAYS!!! \n𝖆𝖓𝖘𝖜𝖊𝖗 𝖒𝖞 𝖖𝖚𝖊𝖘𝖙𝖎𝖔𝖓𝖘 𝖆𝖓𝖉 𝖞𝖔𝖚 𝖘𝖍𝖆𝖑𝖑 𝖕𝖆𝖘𝖘...")
+              "everyone is blasted with sand, Todd whales like a lil baby... When you open your eyes again there stands a shiny demon... in the middle... of the road...\n"
+              "AND SHE SAYS!!! \n𝕴 𝖆𝖒 𝕿𝖍𝖊 𝕰𝖓𝖈𝖍𝖆𝖓𝖙𝖗𝖊𝖘𝖘... 𝕴 𝖓𝖊𝖊𝖉 𝖙𝖍𝖊 𝖍𝖊𝖑𝖕 𝖋𝖗𝖔𝖒 𝖆 𝖞𝖔𝖚𝖓𝖌 𝖕𝖊𝖗𝖘𝖔𝖓 𝖑𝖎𝖐𝖊 𝖞𝖔𝖚 𝖜𝖎𝖙𝖍 𝖘𝖔𝖒𝖊 𝖔𝖋 𝖙𝖍𝖎𝖘 𝖘𝖙𝖚𝖕𝖎𝖉 𝖙𝖊𝖈𝖍𝖓𝖔𝖑𝖔𝖌𝖞... 𝕴𝖙'𝖘 𝖙𝖔𝖔 𝖍𝖆𝖗𝖉 𝖋𝖔𝖗 𝖒𝖞 𝖔𝖑𝖉 𝖇𝖗𝖆𝖎𝖓")
         input("(Press enter to continue)")
+    elif len(grade_list) == 3:
+        print("\nSuddenly the sand in front of you once again swirls and gathers into a small storm, you and your friends cover your eyes as\n"
+              "everyone is blasted with sand, Todd cowers behind Stephany, still crying... When you open your eyes again 𝕿𝖍𝖊 𝕰𝖓𝖈𝖍𝖆𝖓𝖙𝖗𝖊𝖘𝖘 is there once again\n"
+              "AND SHE SAYS!!! \n𝕴 𝖆𝖒 𝕿𝖍𝖊 𝕰𝖓𝖈𝖍𝖆𝖓𝖙𝖗𝖊𝖘𝖘... 𝕴 𝖜𝖆𝖘 𝖙𝖊𝖑𝖑𝖎𝖓𝖌 𝖒𝖞 𝖔𝖙𝖍𝖊𝖗 𝖉𝖊𝖆𝖉 𝖋𝖗𝖎𝖊𝖓𝖉𝖘 𝖆𝖇𝖔𝖚𝖙 𝖞𝖔𝖚𝖗 𝖙𝖊𝖈𝖍𝖓𝖔𝖑𝖔𝖌𝖞 𝖘𝖐𝖎𝖑𝖑𝖘 𝖆𝖓𝖉 𝖙𝖍𝖊𝖞 𝖍𝖆𝖛𝖊 𝖘𝖔𝖒𝖊 𝖙𝖊𝖈𝖍 𝖘𝖙𝖗𝖚𝖌𝖌𝖑𝖊𝖘 𝖙𝖍𝖊𝖒𝖘𝖊𝖑𝖛𝖊𝖘...\n 𝕴 𝖒𝖎𝖘𝖘 𝖙𝖍𝖊 𝖔𝖑𝖉 𝖉𝖆𝖞𝖘 𝖜𝖍𝖊𝖓 𝖑𝖎𝖋𝖊 𝖜𝖆𝖘 𝖘𝖎𝖒𝖕𝖑𝖊𝖗...")
+        input("(Press enter to continue)")
+    elif len(grade_list) == 3:
+        print("\nSuddenly the sand in front of you once again swirls and gathers into a small storm, you and your friends stand there... annoyed... eyes wide open\n"
+              "everyone is blasted with sand, Todd is rocking himself on the ground, he has run out of tears to shed... When you open your eyes again 𝕿𝖍𝖊 𝕰𝖓𝖈𝖍𝖆𝖓𝖙𝖗𝖊𝖘𝖘 is there... again\n"
+              "\n𝕳𝖊𝖑𝖑𝖔 𝖆𝖌𝖆𝖎𝖓, 𝖘𝖔𝖗𝖗𝖞 𝖙𝖔 𝖐𝖊𝖊𝖕 𝖇𝖔𝖙𝖍𝖊𝖗𝖎𝖓𝖌 𝖞𝖔𝖚 𝖍𝖆𝖍𝖆, 𝕴 𝖏𝖚𝖘𝖙 𝖘𝖙𝖗𝖚𝖌𝖌𝖑𝖊 𝖘𝖔 𝖒𝖚𝖈𝖍 𝖜𝖎𝖙𝖍 𝖆𝖑𝖑 𝖔𝖋 𝖙𝖍𝖎𝖘 𝖇𝖗𝖆𝖓𝖉 𝖓𝖊𝖜 𝖙𝖊𝖈𝖍𝖓𝖔𝖑𝖔𝖌𝖞 𝖆𝖓𝖉 𝖋𝖗𝖆𝖓𝖐𝖑𝖞 𝕴 𝖌𝖊𝖙 𝖗𝖊𝖆𝖑𝖑𝖞 𝖑𝖔𝖓𝖊𝖑𝖞 𝖘𝖔𝖒𝖊𝖙𝖎𝖒𝖊𝖘 𝕷𝕺𝕷... >_<"
+              "\n𝕬𝖓𝖞𝖜𝖆𝖞 𝖙𝖍𝖆𝖓𝖐 𝖞𝖔𝖚 𝖘𝖔 𝖒𝖚𝖈𝖍 𝖋𝖔𝖗 𝖆𝖑𝖑 𝖞𝖔𝖚𝖗 𝖍𝖊𝖑𝖕, 𝕴 𝖗𝖊𝖆𝖑𝖑𝖞 𝖘𝖙𝖗𝖚𝖌𝖌𝖑𝖊 𝖜𝖎𝖙𝖍 𝖊𝖛𝖊𝖗𝖞𝖙𝖍𝖎𝖓𝖌 𝖓𝖔𝖜𝖆𝖉𝖆𝖞𝖘 𝖇𝖊𝖈𝖆𝖚𝖘𝖊 𝖔𝖋 𝖒𝖞 𝖆𝖌𝖊 𝖔𝖋 𝖈𝖔𝖚𝖗𝖘𝖊")
+        input("(Press enter to continue...again...)")
         
 
 def getQuestion():
@@ -178,32 +189,31 @@ def final_grading():
     if 90 <= final_score <= 100:
         print("A")
         print("You Passed!")
-        import DefeatandVictory
-        DefeatandVictory.vicScreen()
-        quit()
+
+
     elif 80 <= final_score < 90:
         print("B")
         print("You Passed!")
-        import DefeatandVictory
-        DefeatandVictory.vicScreen()
-        quit()
+
+
     elif 70 <= final_score < 80:
         print("C")
         print("You Passed!")
-        import DefeatandVictory
-        DefeatandVictory.vicScreen()
-        quit()
+
+
     elif 60 <= final_score < 70:
         print("D")
         print("You Failed!")
         import DefeatandVictory
         DefeatandVictory.deadscreen()
+        print("you are a failer you dont deserve to go on")
         quit()
     else:
         print("F")
         print("You Failed!")
         import DefeatandVictory
         DefeatandVictory.deadscreen()
+        print("you are a failer you dont deserve to go on")
         quit()
 
 final_grading()

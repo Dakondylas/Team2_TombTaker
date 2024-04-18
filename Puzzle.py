@@ -23,17 +23,21 @@ def puzzle():
          if key1 == 1:
             from question1 import quiz_puzzle
             key1-=1
-            key2 +=1
 
-      if key2 == 2:
+      if chooser== 99:
          from YunusPuzzles import puzzle1
          puzzle1()
          key2-=1
 
 
-      if key1 + key2 == 0:
+      if chooser == 88:
          import questionBank
+         key3-=1
 
+      if key1+key2+key3==0:
+         import DefeatandVictory
+         DefeatandVictory.vicScreen()
+         quit()
 
 
 

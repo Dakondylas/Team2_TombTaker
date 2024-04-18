@@ -13,9 +13,9 @@ def puzzle1():  # First puzzle
     moving_text("""You notice a tablet asking you [true or false question]""")  # Receiving input from question
     moving_text("Is it true? [1], or false?[2]?")
     Choice = input()
-    Choice.lower()
     if Choice == "1":  #Checking if correct
         moving_text("correct")
+
     else:
         print("wrong")
  # Calls puzzle1
@@ -41,3 +41,4 @@ def puzzle3():
         print("correct")
     if var == "2":
         print("wrong")
+puzzle1()
