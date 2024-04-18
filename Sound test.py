@@ -7,7 +7,7 @@
 # then doing pip install playsound
 # also you need to have all the mp3 files in a folder called VoiceLines in the same location as this file
 
-from playsound import playsound
+import playsound
 
 
 class Voicelines:
@@ -27,13 +27,22 @@ class Voicelines:
     WrongDie = "VoiceLines\WrongDie.mp3"
     YeahNawIAintMessinWithThatShitVro = "VoiceLines\YeahNawIAintMessinWithThatShitVro.mp3"
     Music = "VoiceLines\Music.mp3"
+    HeavenlySnake1 = "VoiceLines\HeavenlySnake1.mp3"
+    HeavenlySnake2 = "VoiceLines\HeavenlySnake2.mp3"
+    SnakeLeftPressurePlate = "VoiceLines\SnakeLeftPressurePlate.mp3"
+    SnakeDie = "VoiceLines\SnakeDie.mp3"
+    Secret2 = "VoiceLines\Secret2.mp3"
+    Secret1 = "VoiceLines\Secret1.mp3"
+    Secret = "VoiceLines\Secret.mp3"
+    TombIntro4 = "VoiceLines\TombIntro4.mp3"
+
 
     def __init__(self):
         pass
 
     def play(self, sound):
-        playsound(sound)
+        playsound.playsound(sound)
 
 # syntax: object.play(object, object.NameOfSound)
 x = Voicelines
-x.play(x, x.YeahNawIAintMessinWithThatShitVro)
+x.play(x, x.TurnBackNowMonster)
