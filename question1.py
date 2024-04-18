@@ -22,7 +22,7 @@ def quiz_puzzle():
             x -= 1
             print(f'you have {x} guesses left')
         if x == 0:
-            print("you are all out of guesses then he hurls a  massive fire ball towards yall, you have died")
+            print("")
             import DefeatandVictory
             DefeatandVictory.deadscreen()
             quit()

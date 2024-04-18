@@ -229,8 +229,7 @@ def opening():
     clearcar()
 
     # try except thing to be done here
-    def main():
-        print("Main here")
+
     sys.set_int_max_str_digits(1000000000)
     def optionTwo():
         print("Team2_group_project By Dillon K. Idris S. and Yunus G. \nTomb quiz game that tests your knowledge in this year's Python and Networking curriculum \nCONTROLS Use keys 1,2,3,4 to answer multiple choice question \nUse your keyboard to complete fill in the blank questions")
@@ -251,7 +250,6 @@ def opening():
     def ifstart(startOption=startOption):
         if startOption == 1:
             clearcar()
-            main()
         if startOption == 2:
             clearcar()
             optionTwo()

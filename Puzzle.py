@@ -25,8 +25,9 @@ def puzzle():
             key1-=1
 
       if chooser== 99:
-         from YunusPuzzles import puzzle1
-         puzzle1()
+         print("You find a slab that has 3 curses printed on you you pick it up  then it starts to ask you question")
+         import YunusPuzzles
+         YunusPuzzles.puzzle1()
          key2-=1
 
 

@@ -10,7 +10,7 @@ def moving_text(text):  # This function allows text to print at a reading pace
         
 def puzzle1():  # First puzzle
 # True or false question
-    moving_text("""You notice a tablet asking you [true or false question]""")  # Receiving input from question
+    moving_text("""You notice a tablet asking you is batamn good at python""")  # Receiving input from question
     moving_text("Is it true? [1], or false?[2]?")
     Choice = input()
     if Choice == "1":  #Checking if correct
@@ -18,6 +18,8 @@ def puzzle1():  # First puzzle
 
     else:
         print("wrong")
+        import DefeatandVictory
+        DefeatandVictory.deadscreen()
  # Calls puzzle1
 
 # Puzzle2
