@@ -4,8 +4,29 @@
 # Date: 4/17/2024
 # Victory and defeat screens
 # ----------------------------------------------------------------------
-
 # Function checks if player has won or lost and displays screen
+
+class Rating:
+    def __init__(self, won):
+        self.won = won
+
+    def review(self):
+        if self.won:
+            print("\n\nCongrats on your victory!!\nPlease take the time to answer a few questions and say how this game went.\n")
+        else:
+            print("\n\nI'm sorry you lost the game...\nPlease take the time to answer a few questions and say how this game went.")
+        gamingExperience = input("How was your gaming experience from 1-10:\n")
+        while not gamingExperience.isdigit():
+            print("Please enter a number...")
+            gamingExperience = input("How was your gaming experience from 1-10:\n")
+        anyChange = input("Is there anything you would change about the game?\n")
+        favoriteGame = input("Was this your favorite game? :)\n")
+        BonzosTombRating = open("BonzosTombRating.txt", "w")
+        BonzosTombRating.write(str([gamingExperience, anyChange, favoriteGame, self.won]))
+        BonzosTombRating.close()
+        print("\nReview Saved... Thank you for playing :)\n")
+
+
 def vicScreen():
    # Victory screen
     print("""               _
@@ -37,6 +58,8 @@ def vicScreen():
                                                        
                                                        
                                                           .""")
+    x = Rating(True)
+    x.review()
 
 
 
@@ -68,6 +91,9 @@ dX.    9Xb      .dXb    ▀▀▀▀▀•  ▀▀▀ ▀▀▀  ▀▀▀  ▀ 
                               
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
     """)
+    x = Rating(False)
+    x.review()
+
     #playAgain = input("""
    #
     #
@@ -79,3 +105,4 @@ dX.    9Xb      .dXb    ▀▀▀▀▀•  ▀▀▀ ▀▀▀  ▀▀▀  ▀ 
 
 #Calls function
 
+deadscreen()
